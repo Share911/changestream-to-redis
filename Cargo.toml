@@ -10,7 +10,7 @@ bson = { version = "3.1.0", default-features = false, features = ["compat-3-0-0"
 futures-util = { version = "0.3.31", default-features = false }
 hyper = { version = "1.8.1", default-features = false, features = ["http1", "server"] }
 hyper-util = { version = "0.1.20", default-features = false, features = ["tokio"] }
-mongodb = { version = "3.5.1", default-features = false, features = ["bson-3", "compat-3-3-0", "dns-resolver", "rustls-tls"] }
+mongodb = { version = "3.5.1", default-features = false, features = ["bson-3", "compat-3-3-0", "dns-resolver", "rustls-tls", "zlib-compression"] }
 prometheus = { version = "0.14.0", default-features = false }
 redis = { version = "1.0.3", default-features = false, features = ["connection-manager", "script", "tls-rustls-webpki-roots", "tokio-rustls-comp"] }
 serde = { version = "1.0.228", default-features = false, features = ["derive"] }
